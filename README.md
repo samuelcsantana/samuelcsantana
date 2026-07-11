@@ -24,10 +24,10 @@
 
 Acredito que código bom é aquele que resolve problemas reais. Nos últimos anos, tenho focado em liderança técnica e modernização de arquiteturas complexas:
 
-*   **Arquitetura de Software:** Implementação de ecossistemas de **Micro-frontends (Module Federation)**, reduzindo em cerca de **40% o tempo de build** e permitindo deploys independentes[cite: 1].
-*   **Performance:** Adoção de padrões reativos modernos (como **Angular Signals**), alcançando melhorias de até **50% no tempo de renderização** e mitigando gargalos[cite: 1].
-*   **Sistemas SaaS:** Liderança na transição estrutural de sistemas legados para plataformas multi-tenant, garantindo isolamento de dados e filtros complexos[cite: 1].
-*   **Ferramental Moderno:** Utilização de **Spec-Driven Development (SDD)** auxiliado por IA (GitHub Copilot, Claude Code) para escalar a qualidade e velocidade de entrega[cite: 1].
+*   **Arquitetura de Software:** Implementação de ecossistemas de **Micro-frontends (Module Federation)**, reduzindo em cerca de **40% o tempo de build** e permitindo deploys independentes.
+*   **Performance:** Adoção de padrões reativos modernos (como **Angular Signals**), alcançando melhorias de até **50% no tempo de renderização** e mitigando gargalos.
+*   **Sistemas SaaS:** Liderança na transição estrutural de sistemas legados para plataformas multi-tenant, garantindo isolamento de dados e filtros complexos.
+*   **Ferramental Moderno:** Utilização de **Spec-Driven Development (SDD)** auxiliado por IA (GitHub Copilot, Claude Code) para escalar a qualidade e velocidade de entrega.
 
 ---
 
