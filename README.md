@@ -41,6 +41,8 @@ Acredito que código bom é aquele que resolve problemas reais. Nos últimos ano
 *   🎨 [`vertex-web`](https://github.com/samuelcsantana/vertex-web) — Frontend em Next.js 16, arquitetura server-first, i18n por sub-path e OAuth cross-domain seguro.
 *   🔧 [`vertex-api`](https://github.com/samuelcsantana/vertex-api) — Backend em NestJS + Fastify, Drizzle/PostgreSQL, autenticação via OAuth Token Callback Pattern, API REST com rate limiting.
 
+📦 [`rx-state-bridge`](https://github.com/samuelcsantana/rx-state-bridge) — Lib open-source (npm) de operadores RxJS zero-dependency para conectar streams assíncronos a Angular Signals, React Hooks e Vue Refs, com foco em memory-safety (teardown determinístico via `finalize`) e tipagem forte sem `any`.
+
 ---
 
 ### 🛠️ Tech Stack & Ferramentas
