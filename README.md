@@ -33,15 +33,25 @@ Acredito que código bom é aquele que resolve problemas reais. Nos últimos ano
 
 ### 💼 Projetos em Destaque
 
-**[Vela](https://github.com/samuelcsantana/vela-core)** — SaaS multi-tenant com isolamento de dados por tenant, autenticação JWT (httpOnly) e RBAC em 3 níveis.
-*   🔧 [`vela-core`](https://github.com/samuelcsantana/vela-core) — API em Fastify 5 + Prisma 7 + PostgreSQL, 100% de cobertura de testes.
-*   🎨 [`vela-ui`](https://github.com/samuelcsantana/vela-ui) — Frontend em React 19 + Rsbuild + TanStack Router/Query, dashboards orientados a RBAC e white-label theming, 100% de cobertura unitária + e2e com Playwright.
+**[Pyxis](https://demo.pyxis-analytics.dev)** — Analytics de produto com privacidade por construção: sem cookies, sem IP, sem user agent e sem dados pessoais. Mostra quais features são usadas, onde as requisições falham, onde um funil de cadastro perde gente e o que uma pessoa fez, em ordem. Em produção desde outubro de 2026, medindo o [BolsoVerde](https://bolsoverde.com) e o [meu blog](https://www.samuelsantana.dev/). [Demo ao vivo](https://demo.pyxis-analytics.dev) com dados inventados, sem login. Os três repositórios têm 100% de cobertura como gate de CI.
+*   🔧 [`pyxis-api`](https://github.com/samuelcsantana/pyxis-api) — NestJS + Fastify em AWS Lambda atrás do CloudFront, infraestrutura em Terraform, Drizzle/PostgreSQL e Clean Architecture. Ingestão em lote com rate limit, apagamento dos dados de uma pessoa (LGPD), retenção e resumo semanal por e-mail. [Referência da API](https://samuelcsantana.github.io/pyxis-api/).
+*   📦 [`pyxis-sdk`](https://github.com/samuelcsantana/pyxis-sdk) — Rastreador para o navegador publicado no npm como [`pyxis-analytics`](https://www.npmjs.com/package/pyxis-analytics), com provenance, zero dependências e orçamento de 5 KB gzip verificado no CI. [Playground](https://samuelcsantana.github.io/pyxis-sdk/).
+*   🎨 [`pyxis-web`](https://github.com/samuelcsantana/pyxis-web) — Painel em Next.js 16 com gráficos SVG renderizados no servidor, em inglês e português, testado com Playwright + axe (WCAG 2.2). [Storybook](https://samuelcsantana.github.io/pyxis-web/).
 
-**[Vertex](https://github.com/samuelcsantana/vertex-web)** — Stack completa por trás do meu blog técnico, [samuelsantana.dev](https://www.samuelsantana.dev/).
-*   🎨 [`vertex-web`](https://github.com/samuelcsantana/vertex-web) — Frontend em Next.js 16, arquitetura server-first, i18n por sub-path e OAuth cross-domain seguro.
+**[BolsoVerde](https://bolsoverde.com)** — Produto próprio em produção: junta as vendas de iFood, 99Food, maquininha, WhatsApp e balcão num lugar só e mostra quanto foi de taxa, o que ainda vai cair na conta e se o mês deu lucro. Código privado.
+*   Frontend em Next.js 16 + React 19 na Vercel, em português, inglês e espanhol; API em NestJS + Fastify na AWS Lambda com Drizzle/PostgreSQL. Login por código no e-mail, senha ou Google, assinaturas com Stripe e exportação dos dados do usuário (LGPD).
+
+**[Ninho](https://cygnus.samuelsantana.dev)** — App de saúde infantil: vacinas do calendário do PNI, consultas, crescimento e marcos de desenvolvimento, com acesso compartilhado entre responsáveis.
+*   🎨 [`cygnus`](https://github.com/samuelcsantana/cygnus) — React 19 + Vite + TypeScript strict, em português, inglês e espanhol, com [design system público no Storybook](https://samuelcsantana.github.io/cygnus/) e acessibilidade verificada no CI.
+*   🔧 [`cygnus-api`](https://github.com/samuelcsantana/cygnus-api) — Fastify 5 + Prisma 7 + PostgreSQL em camadas (domain, application, infrastructure, presentation), lembretes em fila BullMQ/Redis com retry e dead letter queue.
+
+**[Vertex](https://github.com/samuelcsantana/vertex-web)** — Stack completa por trás do meu blog técnico, [samuelsantana.dev](https://www.samuelsantana.dev/), em português, inglês e espanhol e medido pelo Pyxis.
+*   🎨 [`vertex-web`](https://github.com/samuelcsantana/vertex-web) — Frontend em Next.js 16, arquitetura server-first, i18n por sub-path, OAuth cross-domain seguro e um host de Module Federation que carrega em runtime um remote de outra origem ([demo de micro-frontends](https://www.samuelsantana.dev/micro-frontends)).
 *   🔧 [`vertex-api`](https://github.com/samuelcsantana/vertex-api) — Backend em NestJS + Fastify, Drizzle/PostgreSQL, autenticação via OAuth Token Callback Pattern, API REST com rate limiting.
 
-📦 [`rx-state-bridge`](https://github.com/samuelcsantana/rx-state-bridge) — Lib open-source (npm) de operadores RxJS zero-dependency para conectar streams assíncronos a Angular Signals, React Hooks e Vue Refs, com foco em memory-safety (teardown determinístico via `finalize`) e tipagem forte sem `any`.
+📦 [`rx-state-bridge`](https://github.com/samuelcsantana/rx-state-bridge) — Lib open-source ([npm](https://www.npmjs.com/package/rx-state-bridge)) de operadores RxJS zero-dependency para conectar streams assíncronos a Angular Signals, React Hooks e Vue Refs, com foco em memory-safety (teardown determinístico via `finalize`) e tipagem forte sem `any`.
+
+**Outros:** [Vela](https://github.com/samuelcsantana/vela-core), SaaS multi-tenant com isolamento de dados por tenant, JWT em cookie httpOnly e RBAC em 3 níveis ([`vela-core`](https://github.com/samuelcsantana/vela-core) em Fastify 5 + Prisma 7, [`vela-ui`](https://github.com/samuelcsantana/vela-ui) em React 19 + Rsbuild + TanStack Router/Query).
 
 ---
 
