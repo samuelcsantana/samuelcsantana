@@ -41,7 +41,7 @@ Acredito que código bom é aquele que resolve problemas reais. Nos últimos ano
 **[BolsoVerde](https://bolsoverde.com)** — Produto próprio em produção: junta as vendas de iFood, 99Food, maquininha, WhatsApp e balcão num lugar só e mostra quanto foi de taxa, o que ainda vai cair na conta e se o mês deu lucro. Código privado.
 *   Frontend em Next.js 16 + React 19 na Vercel, em português, inglês e espanhol; API em NestJS + Fastify na AWS Lambda com Drizzle/PostgreSQL. Login por código no e-mail, senha ou Google, assinaturas com Stripe e exportação dos dados do usuário (LGPD).
 
-**[Ninho](https://cygnus.samuelsantana.dev)** — App de saúde infantil: vacinas do calendário do PNI, consultas, crescimento e marcos de desenvolvimento, com acesso compartilhado entre responsáveis.
+**[Cygnus](https://cygnus.samuelsantana.dev)** — App de saúde infantil: vacinas do calendário do PNI, consultas, crescimento nas curvas da OMS, marcos do desenvolvimento e medicamentos, com acesso compartilhado entre responsáveis. [Demo ao vivo](https://cygnus.samuelsantana.dev) com dados fictícios, sem cadastro.
 *   🎨 [`cygnus`](https://github.com/samuelcsantana/cygnus) — React 19 + Vite + TypeScript strict, em português, inglês e espanhol, com [design system público no Storybook](https://samuelcsantana.github.io/cygnus/) e acessibilidade verificada no CI.
 *   🔧 [`cygnus-api`](https://github.com/samuelcsantana/cygnus-api) — Fastify 5 + Prisma 7 + PostgreSQL em camadas (domain, application, infrastructure, presentation), lembretes em fila BullMQ/Redis com retry e dead letter queue.
 
